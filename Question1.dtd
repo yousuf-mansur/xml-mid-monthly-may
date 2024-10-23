@@ -1,0 +1,7 @@
+<!ELEMENT course (name, modules)>
+<!ATTLIST course course-id (ESAD-CS|ESAD-VB|NT) #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT modules (module+)>
+<!ELEMENT module (name, duration)>
+<!ELEMENT duration (#PCDATA)>
+<!ATTLIST module module-id ID #REQUIRED>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<!DOCTYPE course SYSTEM "eve_3.dtd">
+<course course-id="ESAD-CS">
+	<name>Enterprise Ssytem Analysis and Design usin Visusl C Sharp</name>
+	<modules>
+		<module module-id="C#">
+			<name>Programming Concepts</name>
+			<duration>80</duration>
+		</module>
+		<module module-id="SQL">
+			<name>Designing and implementing databases</name>
+			<duration>60</duration>
+		</module>
+	</modules>
+</course>
